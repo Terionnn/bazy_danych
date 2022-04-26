@@ -115,3 +115,16 @@ Insert into HISTORIA_NAPRAW (ID_NAPRAWY,ZLECENIE,DATA_ZAKONCZENIA,CALKOWITY_KOSZ
 	SELECT * FROM czesci_zamienne
 	GO;
  
+ ///////////////////
+ LEPSZE FORMATOWANIE
+ set linesize 1000;
+ column nazwa_urzadzenia format a50;
+ column producent format a30;
+ column nazwa_czesci format a40;
+ column imie format a20;
+ column nazwisko format a20;
+ column dostepnosc format a20;
+ column usluga format a30;
+ column stan format a10;
+ column wlasciciel_urzadzenia format a20;
+ 
